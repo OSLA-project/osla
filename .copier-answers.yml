@@ -1,0 +1,39 @@
+# Changes here will be overwritten by Copier
+SelectCitation:
+- AddCitationFile_flag
+- AddCFFConvert_flag
+SelectCodeQualityFeatures:
+- AddLocalTests_flag
+- SelectGitHubActions_flag
+- AddLinting_flag
+- AddPreCommit_flag
+- AddSonarCloud_flag
+- AddEditorConfig_flag
+SelectCommunityFeatures:
+- AddCodeConduct_flag
+- AddContributing_flag
+SelectDocumentationFeatures:
+- AddLocalDocumentation_flag
+- AddOnlineDocumentation_flag
+- AddDevDoc_flag
+- AddGitHubActionDocumentation_flag
+SelectGitHubActions:
+- AddGitHubActionBuild_flag
+- AddLinkCheck_flag
+SelectPublishReleaseFeatures:
+- SelectCitation_flag
+- AddChangeLog_flag
+- AddZenodo_flag
+_commit: 0.6.0
+_src_path: https://github.com/nlesc/python-template.git
+code_of_conduct_email: w.baccinelli@esciencecenter.nl
+copyright_holder: Yuval Mulla
+email: w.baccinelli@esciencecenter.nl
+full_name: Walter Baccinelli
+github_organization: OSLA-project
+keywords: automation, robotics, task scheduling
+license: Apachev2
+package_name: osla
+package_short_description: Code base for the OSLA insfrastructure
+template_profile: ask
+version: 0.0.0
